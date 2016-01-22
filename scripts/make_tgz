@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+
+cd /
+
+tar cvjf ~/mf-chsdi3.tar.bz2 --exclude=/var/www/vhosts/mf-chsdi3/logs/* --exclude=/var/www/vhosts/mf-chsdi3/private/chsdi/.git --exclude=/var/www/vhosts/mf-chsdi3/private/chsdi/apache/tomcat*  --exclude=/var/www/vhosts/mf-chsdi3/private/chsdi/apache/mapproxy*   --exclude=*.pyc --exclude=/var/www/vhosts/mf-chsdi3/private/chsdi/print    /var/www/vhosts/mf-chsdi3/
