@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+/usr/sbin/a2dissite 25-mf-chsdi3
+
+
+/etc/init.d/apache2 restart
+
+
+

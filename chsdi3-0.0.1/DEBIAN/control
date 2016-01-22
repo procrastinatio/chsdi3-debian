@@ -1,0 +1,9 @@
+Package: chsdi3
+Version: 0.0.1
+Architecture: all
+Essential: no
+Section: web
+Priority: optional
+Depends: python (>=2.7), apache2-mpm-prefork, libapache2-mod-wsgi, libproj0,  proj-bin,  python-mapscript, python-gdal
+Maintainer: GeoAdmin <webgis@swisstopo.ch>
+Description: GeoAdmin services.
