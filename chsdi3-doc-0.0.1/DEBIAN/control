@@ -1,0 +1,9 @@
+Package: chsdi3-doc
+Version: 0.0.1
+Architecture: all
+Essential: no
+Section: web
+Priority: optional
+Depends: chsdi3
+Maintainer: GeoAdmin <webgis@swisstopo.ch>
+Description: GeoAdmin services doc
