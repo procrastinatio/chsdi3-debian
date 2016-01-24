@@ -5,7 +5,8 @@ __pycache__/
 
 
 chsdi3-doc-0.0.1/var/
-chsdi3-0.0.1/var
+chsdi3-0.0.1/var/www/
+*.deb
 
 # C extensions
 *.so
