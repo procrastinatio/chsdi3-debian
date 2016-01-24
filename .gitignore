@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+chsdi3-doc-0.0.1/var/
+chsdi3-0.0.1/var
+
 # C extensions
 *.so
 
