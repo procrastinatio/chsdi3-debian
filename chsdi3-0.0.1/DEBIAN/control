@@ -1,6 +1,6 @@
 Package: chsdi3
 Version: 0.0.1
-Architecture: all
+Architecture: amd64
 Essential: no
 Section: web
 Priority: optional
