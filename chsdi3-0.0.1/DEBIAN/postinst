@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "Enabling virtual host"
-/usr/sbin/a2enmod alias env expires headers mime proxy rewrite setenvif vhost_alias
+/usr/sbin/a2enmod alias env expires headers mime proxy rewrite setenvif vhost_alias wsgi
+/etc/init.d/apache2 restart
 
 /usr/sbin/a2ensite 25-mf-chsdi3
 
